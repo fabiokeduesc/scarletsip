@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+
+    <title>Detalhes do Tango - ScarletSip</title>
+    <style>
+        body {
+            font-family: 'brixton', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #af2d46;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+
+        header {
+            background-color: #573539;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        nav a {
+            margin: 0 20px;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .content-container {
+            max-width: 1200px;
+            margin: 100px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .cerveja-info {
+            flex: 1;
+            padding: 0 20px;
+        }
+
+        .cerveja-info h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .cerveja-info p {
+            font-size: 24px; /* Aumento do tamanho do texto */
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+		
+		.cerveja-info ul {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.cerveja-info h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+        .cerveja-imagem {
+            flex: 1;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .cerveja-imagem img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <a href="index.html"><img src="images/LOGO-WHITE.png" alt="Logotipo ScarletSip" class="logo"></a>
+    </div>
+    <nav>
+        <a href="sobre.html">Sobre Nós</a>
+		<a href="app.html">APP</a>
+        <a href="produtos.html">Produtos</a>
+		<a href="merchandising.html">MERCH</a>
+        <a href="contato.html">Contacto</a>
+    </nav>
+    <div class="social-icons">
+        <a href="https://www.youtube.com" class="social-icon"><img src="images/facebook.png" alt="Facebook" style="max-width: 50px;"></a>
+        <a href="images/x.png" class="social-icon"><img src="images/x.png" alt="Twitter" style="max-width: 50px;"></a>
+        <a href="images/instagram.png" class="social-icon"><img src="images/instagram.png" alt="Instagram" style="max-width: 50px;"></a>
+    </div>
+</header>
+
+
+<div class="content-container">
+    <div class="cerveja-info">
+        <h2>SCARLETSIP CAP GREY</h2>
+		<h3>€6,99</h3>
+        <p>Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna</p>
+		<h2>INSTALA JÁ A <a href="app.html" style="color: #eb8d8d;">NOSSA APP</a> PARA COMPRARES O TEU CAP</h2>
+    </div>
+    <div class="cerveja-imagem">
+        <img src="images/CAP1.PNG" alt="Cerveja Tango com Groselha">
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2023 ScarletSip. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>

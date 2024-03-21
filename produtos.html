@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Produtos - ScarletSip</title>
+    <style>
+
+
+body {
+    padding-top: 160px;
+}
+
+
+.imagem-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.imagem-produto {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.imagem-produto:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+nav a {
+    margin: 0 20px;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <a href="index.html"><img src="images/LOGO-WHITE.png" alt="Logotipo ScarletSip" class="logo"></a>
+    </div>
+    <nav>
+        <a href="sobre.html">Sobre Nós</a>
+		<a href="app.html">APP</a>
+        <a href="#">Produtos</a>
+		<a href="merchandising.html">MERCH</a>
+        <a href="contato.html">Contacto</a>
+    </nav>
+    <div class="social-icons">
+        <a href="https://www.youtube.com" class="social-icon"><img src="images/facebook.png" alt="Facebook" style="max-width: 50px;"></a>
+        <a href="images/x.png" class="social-icon"><img src="images/x.png" alt="Twitter" style="max-width: 50px;"></a>
+        <a href="images/instagram.png" class="social-icon"><img src="images/instagram.png" alt="Instagram" style="max-width: 50px;"></a>
+    </div>
+</header>
+
+<div class="imagem-container">
+    <div class="imagem-produto-container">
+        <a href="TANGO.html">
+            <img src="images/TANGOCARD.png" class="imagem-produto" alt="Produto 1">
+        </a>
+        <div class="descricao">
+            <p>Cerveja + Sumo de Groselha</p>
+        </div>
+    </div>
+    <div class="imagem-produto-container">
+        <a href="BEER.html">
+            <img src="images/BEERCARD.png" class="imagem-produto" alt="Produto 2">
+        </a>
+        <div class="descricao">
+            <p>Cerveja Artesanal</p>
+        </div>
+    </div>
+    <div class="imagem-produto-container">
+        <a href="STOUT.html">
+            <img src="images/STOUTCARD.png" class="imagem-produto" alt="Produto 3">
+        </a>
+        <div class="descricao">
+            <p>Cerveja Stout</p>
+        </div>
+    </div>
+</div>
+
+
+
+<button id="back-to-top">Voltar ao Topo</button>
+
+<footer class="footer">
+    <p>&copy; 2023 ScarletSip. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
